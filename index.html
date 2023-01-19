@@ -54,15 +54,26 @@
             <div class="row mt-4">
                 <div class="col-md-3">
                     <ul class="list-group" id="users-list">
-                        <li class="list-group-item active" aria-current="true">An active item</li>
-                        <li class="list-group-item">A second item</li>
-                        <li class="list-group-item">A third item</li>
-                        <li class="list-group-item">A fourth item</li>
-                        <li class="list-group-item">And a fifth one</li>
+                        
                     </ul>
                 </div>
                 <div class="col-md-9">
-                    chats
+                    <div class="card message-box" id="message-box" style="visibility: hidden;">
+                        <div class="card-header target-user" id="target-user"></div>
+                        <div class="card-body messages-list" id="messages-list">
+                          <!-- <h5 class="card-title">Card title</h5> -->
+                          <!-- <p class="card-text message-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
+                        </div>
+                        <div class="card-footer-1">
+                            <form action="#" class="chat-form" id="chat-form">
+                                <div class="d-flex">
+                                    <textarea name="message" id="message" cols="30" rows="1" class="form-control card-footer w-100"></textarea>
+                                    <span class="spacing-2"></span>
+                                    <button class="btn btn-success btn-sm" type="submit">send</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

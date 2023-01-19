@@ -27,3 +27,38 @@ input[type=number]:focus,
 .chat-dashborad {
     visibility: hidden;
 }
+
+.user-list-item {
+    cursor: pointer;
+}
+.user-list-item:hover {
+    background-color: #f9f9f9;
+}
+
+.messages-list {
+    height: 75vh;
+}
+
+.spacing-2 {
+    width: 20px;
+    height: 20px;
+}
+
+.messages-list {
+    display: inline-flex;
+    flex-direction: column-reverse;
+    width: fit-content;
+}
+
+.message-text {
+    display: inline-block;
+    padding: 5px 10px;
+    border: 1px solid #84D2C5;
+    border-radius: 7px;
+    background-color: #f9f9f9;
+}
+.recieved-message {
+    display: inline-block;
+    background-color: black;
+    color: white;
+}
